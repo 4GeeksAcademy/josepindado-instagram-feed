@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto;
+}
+
+.postheader {
+    justify-content: space-between;
+}
+
+.post.mb-3.bg-light {
+    max-width: 600px;
+    margin: auto;
+}
+
+.postimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.postimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.postbody {
+    padding: 10px
+}
+
+.nav-pills .nav-link.active, .nav-pills .nav-link .show>.nav-link {
+    color: blue!important;
+    background-color: lightgrey !important;
+}
